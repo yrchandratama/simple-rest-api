@@ -20,5 +20,5 @@ exports.sendMessage = async (req, res) => {
 }
 
 exports.getMessages = (req, res) => {
-    res.status(200).json({ status: 'ok', count: messages.length, messages: messages });
+    return res.status(200).json({ status: 'ok', count: messages.length, messages: messages });
 }
