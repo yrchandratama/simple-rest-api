@@ -7,7 +7,7 @@ API to CREATE and GET messages
 
 2. `POST` request to create a new message:
 ```
-http://localhost:3000/api/v1/messages
+POST http://localhost:3000/api/v1/messages
 
 Request:
 {
@@ -23,7 +23,7 @@ Response 201:
 
 3. `GET` request to get all previous messages:
 ```
-http://localhost:3000/api/v1/messages
+GET http://localhost:3000/api/v1/messages
 
 Response 200:
 {
