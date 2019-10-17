@@ -34,3 +34,6 @@ Response 200:
     ]
 }
 ```
+
+4. You can unit-test the `test` folder with this command:
+```mocha test```
